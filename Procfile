@@ -1,0 +1,1 @@
+web: gunicorn strip_data.wsgi
