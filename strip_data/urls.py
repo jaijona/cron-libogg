@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from cron_strip.views import ejecutar_cron
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('ejecutar-cron/', ejecutar_cron),  # <-- aquí
 ]
