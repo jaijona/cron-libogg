@@ -152,7 +152,7 @@ def guardar_promedios_stripchat():
         hora_actual = ahora.replace(minute=0, second=0, microsecond=0)
 
         limit = 99
-        max_paginas = 80
+        max_paginas = 110
 
         genero_a_primaryTag = {
             "Mujer": "girls",
